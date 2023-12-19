@@ -33,6 +33,8 @@ dependencies {
 }
 
 launch4j {
+    outfile = 'SwingDemo.exe'
     mainClassName = 'SwingDemo'
     icon = "${projectDir}/android.png"
+    copyConfigurable = ['outdir': 'build/launch4j']
 }
